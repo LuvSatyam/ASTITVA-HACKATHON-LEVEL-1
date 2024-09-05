@@ -1,0 +1,233 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  width: 100%;
+}
+
+
+.Header{
+  display: flex;
+  /* flex-direction: column; */
+  /* width: 100%; */
+
+}
+
+.nav{
+
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  height: 100px;
+  /* background-color: aquamarine; */
+}
+.Header img{
+  height: 110px;
+  width: 310px;
+}
+.Header div a{
+  text-decoration: none;
+  height: 100px;
+  width: 100px;
+  /* background-color: aquamarine; */
+  margin-top: 10px;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  height: 50px;
+  width: 50px;
+}
+.logo{
+  height: 80px;
+  width: 280px;
+}
+
+.navbar div a{
+  /* display: flex; */
+  /* flex-direction: row; */
+  text-decoration: none;
+  height: 30px;
+  width: 30px;
+  color: black;
+  /* background-color: rgb(220, 40, 40); */
+}
+
+.headerContent{
+  display: flex;
+  flex-direction: row;
+  /* background-color: blue; */
+  height: 50px;
+  width: 50px;
+}
+/* 
+.headerContent div{
+  background-color: bisque;
+  height: 90px;
+  width: 70px;
+} */
+
+.main{
+  /* border: 2px solid red; */
+  width: 98vw;
+}
+
+.container{
+  /* border: 2px solid aqua; */
+  width: 96vw;
+  height: px;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: row;
+}
+#banner{
+  width: 96vw;
+}
+
+.contentImg{
+  position: relative;
+  height: 322px;
+  width: 488px;
+
+}
+
+.containerFlex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.containerFlex div{
+  width: 40vw;
+  padding:10px 10px;
+  margin: 10px 10px;
+}
+
+.containerFlex div p{
+  font-size: 20px;
+  color: aliceblue;
+}
+
+#third-left{
+  background-color: rgb(244, 238, 238);
+  width: 50%;
+
+}
+
+#third-left div{
+  position: relative;
+  left: 270px;
+}
+#third-right{
+  width: 50%;
+  background-color: rgba(241, 18, 18, 0.824);
+}
+
+#fourth-left{
+  background-color: rgba(13, 230, 230, 0.781);
+  width: 50%;
+}
+#fourth-right{
+  width: 50%;
+  background-color: rgb(244, 238, 238);
+}
+
+#fifth-left{
+  width: 50%;
+  background-color: rgb(244, 238, 238);
+}
+
+#fifth-left div{
+
+  position: relative;
+  left: 270px;
+}
+#fifth-right{
+  width: 50%;
+  background-color: rgba(241, 18, 18, 0.824);
+}
+
+#fifth-right img{
+  position: relative;
+}
+.third button{
+  background-color:rgba(241, 18, 18, 0.824) ;
+  font-size: 20px;
+}
+
+.third button a{
+  color: white;
+}
+
+
+.fourth button{
+  background-color:rgba(13, 230, 230, 0.781) ;
+  font-size: 20px;
+  color: white;
+}
+.fourth button a{
+  color: white;
+}
+
+.fifth button{
+  background-color:rgba(241, 18, 18, 0.824) ;
+  font-size: 20px;
+}
+.fifth button a{
+  color: white;
+}
+
+.btn{
+    height: 49px;
+    width: 137px;
+    background-color: rgba(241, 18, 18, 0.824);
+    border: 1px solid white;
+    border-radius: 13px;
+    color: white;
+}
+.btn a{
+  text-decoration: none;
+}
+
+.third div img{
+  position: relative;
+
+}
+
+.second div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2px auto;
+  width: 60%;
+}
+
+.second div p{
+  font-size: 20px;
+}
+
+#para{
+  font-size: 25px;
+}
+.second button{
+  background-color: white;
+  border: 2px solid black;
+}
+
+.second button a{
+  color: black;
+  font-size: 15px;
+}
+.second div hr{
+  color: red;
+}
